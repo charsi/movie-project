@@ -49,8 +49,6 @@ movie_tile_content = '''
     {movie_year}
     <a href={imdb_url}><img src="imdb.png" width="50"></a>
 </div>
-
-
 '''
 
 

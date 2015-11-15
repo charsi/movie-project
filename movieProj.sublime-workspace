@@ -8,18 +8,13 @@
 	"buffers":
 	[
 		{
-			"file": "entertainment centre.py",
+			"contents": "import webbrowser\n\n\nclass Movie():\n	\"\"\"Just a class defining movie objects\"\"\"\n\n\ndef __init__(\n	self, movie_title, movie_storyline,\n	poster_image_url, trailer_yt_url, imdb_url, release_year\n):\n	self.title = movie_title\n	self.storyline = movie_storyline\n	self.poster = poster_image_url\n	self.trailer = trailer_yt_url\n	self.year = release_yeaR\n	self.imdb = imdb_url\n\n\ndef show_trailer(self):\n	# open the link to movie's trailer in a web browser\n	webbrowser.open(self.trailer)\n",
+			"file": "media.py",
+			"file_size": 476,
+			"file_write_time": 1447612128000000,
 			"settings":
 			{
-				"buffer_size": 924,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "fresh_tomatoes.py",
-			"settings":
-			{
-				"buffer_size": 5492,
+				"buffer_size": 473,
 				"line_ending": "Unix"
 			}
 		}
@@ -48,11 +43,14 @@
 	},
 	"file_history":
 	[
-		"/Users/nishil/Library/Application Support/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
-		"/Users/nishil/Documents/python/movieProj/fresh_tomatoes",
+		"/Users/nishil/Library/Application Support/Sublime Text 2/Packages/User/Python.sublime-settings",
 		"/Users/nishil/Documents/python/movieProj/entertainment centre.py",
+		"/Users/nishil/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/Users/nishil/Documents/python/movieProj/media.py",
-		"/Users/nishil/Documents/python/movieProj/movieProj.sublime-project"
+		"/Users/nishil/Documents/python/movieProj/fresh_tomatoes.py",
+		"/Users/nishil/Documents/python/movieProj/movieProj.sublime-project",
+		"/Users/nishil/Library/Application Support/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
+		"/Users/nishil/Documents/python/movieProj/fresh_tomatoes"
 	],
 	"find":
 	{
@@ -94,56 +92,27 @@
 			[
 				{
 					"buffer": 0,
-					"file": "entertainment centre.py",
+					"file": "media.py",
 					"settings":
 					{
-						"buffer_size": 924,
+						"buffer_size": 473,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								273,
-								273
+								78,
+								78
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 47.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "fresh_tomatoes.py",
-					"settings":
-					{
-						"buffer_size": 5492,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								707,
-								707
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1347.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

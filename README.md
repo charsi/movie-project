@@ -1,7 +1,10 @@
-# movie-project
-favorite movie page in python
+# Movie Project
 
+This is a project for a udacity course. It contains code creating a HTML page showing my favorite movies and their trailers.
 
-Just learning to code in python
+How to run -
+Build the 'entertainment centre.py' file. This will create the HTML file and launch it in the default web browser.
 
-This is a project for a udacity course
+Clicking on the movies should launch their respective trailers.
+
+Requires Python 2
