@@ -6,8 +6,8 @@ import fresh_tomatoes
 # Movie class defined in media module
 reservoir_dogs = media.Movie(
     "Reservoir Dogs",
-    "After a simple jewelery heist goes terribly wrong,"
-    " the surviving criminals begin to suspect that one of"
+    "After a simple jewelery heist goes terribly wrong,"\
+    " the surviving criminals begin to suspect that one of"\
     " them is a police informant.",
     "http://i.imgur.com/1cmyEND.jpg",
     "https://www.youtube.com/watch?v=YNvLLKLwmwY",
@@ -17,9 +17,9 @@ reservoir_dogs = media.Movie(
 
 in_bruges = media.Movie(
     "In Bruges",
-    "Guilt-stricken after a job gone wrong, hitman Ray and"
-    " his partner await orders from their ruthless boss in"
-    " Bruges, Belgium, the last place in the world Ray wants"
+    "Guilt-stricken after a job gone wrong, hitman Ray and"\
+    " his partner await orders from their ruthless boss in"\
+    " Bruges, Belgium, the last place in the world Ray wants"\
     " to be.",
     "http://www.impawards.com/2008/posters/in_bruges_ver2_xlg.jpg",
     "https://www.youtube.com/watch?v=bqOJqR1cjhI",
@@ -29,8 +29,8 @@ in_bruges = media.Movie(
 
 kkg = media.Movie(
     "Khosla Ka Ghosla",
-    "A Delhi based retired middle class man tries half-heartedly"
-    " to get his land back from a swindling property dealer with"
+    "A Delhi based retired middle class man tries half-heartedly"\
+    " to get his land back from a swindling property dealer with"\
     " the help of his sons and their friends.",
     "http://www.impawards.com/intl/india/2006/posters/khosla_ka_ghosla.jpg",
     "https://www.youtube.com/watch?v=jUy9ho06RuQ",
@@ -40,9 +40,9 @@ kkg = media.Movie(
 
 gow2 = media.Movie(
     "Gangs Of Wasseypur",
-    "A clash between Sultan (a Qureishi dacoit chief) and Shahid"
-    " Khan (a Pathan who impersonates him) leads to the expulsion"
-    " of Khan from Wasseypur, and ignites a deadly blood feud"
+    "A clash between Sultan (a Qureishi dacoit chief) and Shahid"\
+    " Khan (a Pathan who impersonates him) leads to the expulsion"\
+    " of Khan from Wasseypur, and ignites a deadly blood feud"\
     " spanning three generations.",
     "http://www.paragsankhe.com/wp-content/uploads/2013/01/"
     "Gangs-of-Wasseypur_UK_30x40_Coal_Poster.jpg",
@@ -53,11 +53,11 @@ gow2 = media.Movie(
 
 monsoon_wedding = media.Movie(
     "Monsoon Wedding",
-    "A stressed father, a bride-to-be with a secret, a"
-    " smitten event planner, and relatives from around"
-    " the world create much ado about the preparations"
+    "A stressed father, a bride-to-be with a secret, a"\
+    " smitten event planner, and relatives from around"\
+    " the world create much ado about the preparations"\
     " for an arranged marriage in India.",
-    "http://www.amoeba.com/admin/uploads/blog/Eric_B/"
+    "http://www.amoeba.com/admin/uploads/blog/Eric_B/"\
     "monsoon_wedding_ver6_xlg.jpg",
     "https://www.youtube.com/watch?v=eaP-UrmS6Ww",
     "http://www.imdb.com/title/tt0265343",
@@ -66,10 +66,10 @@ monsoon_wedding = media.Movie(
 
 true_romance = media.Movie(
     "True Romance",
-    "Clarence marries hooker Alabama, steals cocaine"
-    " from her pimp, and tries to sell it in Hollywood,"
+    "Clarence marries hooker Alabama, steals cocaine"\
+    " from her pimp, and tries to sell it in Hollywood,"\
     " while the owners of the coke try to reclaim it.",
-    "http://cdn-images.9cloud.us/22/"
+    "http://cdn-images.9cloud.us/22/"\
     "piccit_true_romance_1993_1534_x_217_2069657734.jpg",
     "https://www.youtube.com/watch?v=_wNYNDzKpuQ",
     "http://www.imdb.com/title/tt0108399/",
@@ -78,7 +78,7 @@ true_romance = media.Movie(
 
 ollo = media.Movie(
     "Oye Lucky Lucky Oye",
-    "A burglar reflects on his life and loves; while"
+    "A burglar reflects on his life and loves; while"\
     " the media speculates how he managed to pull off so many heists.",
     "http://www.impawards.com/intl/india/2008/posters/oye_lucky_lucky_oye.jpg",
     "https://www.youtube.com/watch?v=3paPF30NJhg",
