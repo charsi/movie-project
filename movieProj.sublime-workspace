@@ -7,17 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "import webbrowser\n\n\nclass Movie():\n	\"\"\"Just a class defining movie objects\"\"\"\n\n\ndef __init__(\n	self, movie_title, movie_storyline,\n	poster_image_url, trailer_yt_url, imdb_url, release_year\n):\n	self.title = movie_title\n	self.storyline = movie_storyline\n	self.poster = poster_image_url\n	self.trailer = trailer_yt_url\n	self.year = release_yeaR\n	self.imdb = imdb_url\n\n\ndef show_trailer(self):\n	# open the link to movie's trailer in a web browser\n	webbrowser.open(self.trailer)\n",
-			"file": "media.py",
-			"file_size": 476,
-			"file_write_time": 1447612128000000,
-			"settings":
-			{
-				"buffer_size": 473,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -43,10 +32,13 @@
 	},
 	"file_history":
 	[
-		"/Users/nishil/Library/Application Support/Sublime Text 2/Packages/User/Python.sublime-settings",
 		"/Users/nishil/Documents/python/movieProj/entertainment centre.py",
-		"/Users/nishil/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/Users/nishil/Documents/python/movieProj/media.py",
+		"/Users/nishil/version-control/reflections/lesson_1_reflections.txt",
+		"/Users/nishil/.bash_profile",
+		"/Users/nishil/.bash-profile",
+		"/Users/nishil/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/nishil/Library/Application Support/Sublime Text 2/Packages/User/Python.sublime-settings",
 		"/Users/nishil/Documents/python/movieProj/fresh_tomatoes.py",
 		"/Users/nishil/Documents/python/movieProj/movieProj.sublime-project",
 		"/Users/nishil/Library/Application Support/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
@@ -87,36 +79,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "media.py",
-					"settings":
-					{
-						"buffer_size": 473,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								78,
-								78
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
