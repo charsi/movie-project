@@ -27,8 +27,8 @@ print(in_bruges.year)
 
 movies = [reservoir_dogs, in_bruges]
 
-##fresh_tomatoes.open_movies_page(movies)
+fresh_tomatoes.open_movies_page(movies)
 
-print(media.Movie.__doc__)
-print(media.Movie.__name__)
-print(media.Movie.__module__)
+##print(media.Movie.__doc__)
+##print(media.Movie.__name__)
+##print(media.Movie.__module__)
