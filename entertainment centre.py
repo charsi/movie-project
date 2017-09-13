@@ -10,7 +10,7 @@ reservoir_dogs = media.Movie(
     " the surviving criminals begin to suspect that one of"\
     " them is a police informant.",
     "http://i.imgur.com/1cmyEND.jpg",
-    "https://www.youtube.com/watch?v=YNvLLKLwmwY",
+    "https://www.youtube.com/watch?v=vayksn4Y93A",
     "http://www.imdb.com/title/tt0105236",
     1992
 )
@@ -22,7 +22,7 @@ in_bruges = media.Movie(
     " Bruges, Belgium, the last place in the world Ray wants"\
     " to be.",
     "http://www.impawards.com/2008/posters/in_bruges_ver2_xlg.jpg",
-    "https://www.youtube.com/watch?v=bqOJqR1cjhI",
+    "https://www.youtube.com/watch?v=p-gG2qo_l_A",
     "http://www.imdb.com/title/tt0780536",
     2008
 )
@@ -86,6 +86,28 @@ ollo = media.Movie(
     1993
 )
 
+pulp_fiction = media.Movie(
+    "Pulp Fiction",
+    "The lives of two mob hit men, a boxer, a gangster's "\
+    "wife, and a pair of diner bandits intertwine in "\
+    "four tales of violence and redemption. ",
+    "http://is5.mzstatic.com/image/thumb/Video3/v4/b7/30/8b/b7308b8f-d9ce-41fc-928a-76a87de7d966/source/1200x630bb.jpg",
+    "https://www.youtube.com/watch?v=s7EdQ4FqbhY",
+    "http://www.imdb.com/title/tt1292703/",
+    1994
+)
+
+fargo = media.Movie(
+    "Fargo",
+    "Jerry Lundegaard's inept crime falls apart due "\
+    "to his and his henchmen's bungling and the persistent "\
+    "police work of the quite pregnant Marge Gunderson. ",
+    "https://popculturerainman.files.wordpress.com/2014/02/936full-fargo-poster.jpg",
+    "https://www.youtube.com/watch?v=h2tY82z3xXU",
+    "http://www.imdb.com/title/tt0116282/",
+    1996
+)
+
 # Movies to be included on the page
 movies = [
     reservoir_dogs,
@@ -93,7 +115,9 @@ movies = [
     kkg, gow2,
     monsoon_wedding,
     true_romance,
-    ollo
+    ollo,
+    pulp_fiction,
+    fargo
 ]
 
 # Create HTML page and launch it in default web browser
